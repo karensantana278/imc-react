@@ -1,0 +1,19 @@
+.navbar{
+    background-color: #353C54;
+  }
+  
+  .navbar-brand{
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .navbar-brand:hover{
+    color: #55BEB3;
+  }
+  
+  .navbar-brand .logo{
+    width: 50px;
+  }

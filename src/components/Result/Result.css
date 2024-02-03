@@ -1,0 +1,25 @@
+.result {
+    max-width: 550px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 20px;
+    color: #353C54;
+}
+
+.result.success {
+    background-color: #55BEB3;
+}
+
+.result.alert {
+    background-color: #F8D439;
+}
+
+.result.danger {
+    background-color: #F9425C;
+}
+
+@media(max-width: 998px) {
+    .result {
+        max-width: 90%;
+    }
+}
